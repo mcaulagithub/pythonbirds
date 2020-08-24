@@ -19,4 +19,8 @@ if __name__ == '__main__':
     print(luciano.nome)
     print(weber.idade)
     for filho in luciano.filhos:
-        print(luciano.filhos)
+        print(filho.nome)
+    weber.sobrenome= 'de paula'
+    del luciano.filhos
+    print(luciano.__dict__)
+    print(weber.__dict__)
