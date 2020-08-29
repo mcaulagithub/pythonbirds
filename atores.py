@@ -57,7 +57,7 @@ class Ator():
 
 
 class Obstaculo(Ator):
-    pass
+        pass
 
 
 class Porco(Ator):
